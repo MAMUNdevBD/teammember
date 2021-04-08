@@ -1,0 +1,24 @@
+.items {
+    width: 1400px;
+    margin: auto;
+}
+
+.mask-col {
+    width: 50%;
+}
+
+.mask-col .content {
+    width: 600px;
+    margin-top: 30px;
+}
+.mask-col .content h3 {
+    color: #000;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.mask-col .content p {
+    color: #000;
+    font-size: 24px;
+}
