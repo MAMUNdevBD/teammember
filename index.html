@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
@@ -12,36 +13,38 @@
 <body>
   <div class=''>
     <main>
-      <div class="items">
-        <div class='item'
-          style="background-image: url(./media/front.jpg);">
+      <div class="items row">
+        <div class="col-6">
+        <div class='item' style="background-image: url(./media/front.jpg);">
           <svg preserveAspectRatio='xMidYMid slice' viewBox='0 0 300 200'>
             <defs>
               <clipPath id='clip-0'>
-                <circle pos="left" cx='55%' cy='50%' fill='#000' r='50px' style="transform-origin: 100% 50%;"></circle>
+                <circle pos="left" cx='55%' cy='50%' fill='#DB246D' r='50px' style="transform-origin: 100% 50%;">
+                </circle>
               </clipPath>
             </defs>
             <g clip-path='url(#clip-0)'>
-              <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%'
-                xlink:href='./media/back.jpg'></image>
+              <image height='100%' preserveAspectRatio='xMidYMid meet' width='100%' xlink:href='./media/back3.jpg'>
+              </image>
             </g>
           </svg>
         </div>
-        <div class='item'
-          style="background-image: url(./media/front.jpg);">
+      </div>
+      <div class="col-6">
+        <div class='item' style="background-image: url(./media/front.jpg);">
           <svg preserveAspectRatio='xMidYMid slice' viewBox='0 0 300 200'>
             <defs>
               <clipPath id='clip-1'>
-                <circle pos="right" cx='45%' cy='50%' fill='#000' r='50px' style="transform-origin: 0% 50%;" ></circle>
+                <circle pos="right" cx='45%' cy='50%' fill='#000' r='50px' style="transform-origin: 0% 50%;"></circle>
               </clipPath>
             </defs>
             <g clip-path='url(#clip-1)'>
-              <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%'
-                xlink:href='./media/back.jpg'></image>
+              <image height='100%' preserveAspectRatio='xMidYMid meet' width='100%' xlink:href='./media/back2.webp'>
+              </image>
             </g>
           </svg>
         </div>
-        
+        </div>
       </div>
     </main>
   </div>
@@ -63,6 +66,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
     crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="main.js"></script>
 </body>
 
