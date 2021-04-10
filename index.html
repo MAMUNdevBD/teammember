@@ -8,13 +8,15 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="assets/css/custom.css">
 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
   <title>Document</title>
 </head>
 <body>
-  <div class=''>
+  <div class='container'>
     <main>
-      <div class="items">
-        <div class="mask-col">
+      <div class="items row">
+        <div class="col-6">
           <div class='item' style="background-image: url(./media/front.jpg);">
             <svg preserveAspectRatio='xMidYMid slice' viewBox='0 0 300 200'>
               <defs>
@@ -28,16 +30,17 @@
                 </image>
               </g>
             </svg>
-            
           </div>
-        <div class="content">
-          <h3>What is Lorem Ipsum?</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt sit dolorem consequatur hic ratione, distinctio
-            ipsam iure ab doloremque deleniti, dolor saepe ea voluptas omnis error quisquam blanditiis, quibusdam</p>
-        </div>
+          <div class="content">
+            <h3 id='left-image-title'>Dominic<br> Faucher</h3>
+            <h3>What is Lorem Ipsum?</h3>
+            <p class="text-dark">Unconventional in every respect, Dominic still hasn’t quite grasped the limits of our society. He likes to explore them by deliberately (or accidentally) causing public discomfort that forces people to adopt a new point of view. Unlike some, he can tell the difference between efficiency and bullshit. That’s all it took to persuade us to put him at the head of our creative army.</p>
+              <h3>What is Lorem Ipsum?</h3>
+          </div>
       </div>
 
-      <div class="mask-col">
+      
+      <div class="col-6">
         <div class='item' style="background-image: url(./media/front.jpg);">
           <svg preserveAspectRatio='xMidYMid slice' viewBox='0 0 300 200'>
             <defs>
@@ -52,9 +55,10 @@
           </svg>
         </div>
         <div class="content">
+          <h3 id='right-image-title'>Frédérique <br>Dumont </h3>
           <h3>What is Lorem Ipsum?</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt sit dolorem consequatur hic ratione, distinctio
-            ipsam iure ab doloremque deleniti, dolor saepe ea voluptas omnis error quisquam blanditiis, quibusdam</p>
+          <p class="text-dark">When Frédérique takes on a project, the first step is to ensure that everyone is up to the standard of her organizational skills and sense of priorities. She’s the kind of woman who, in just a couple of weeks, will know more about you than you do yourself. She manages our video production, and from near or far, pretty much anything that can be managed. And for that we are deeply grateful.</p>
+            <h3>What is Lorem Ipsum?</h3>
         </div>
       </div>
     </main>
@@ -74,6 +78,10 @@
         </svg>
       </div> -->
 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
       <script src="main.js"></script>
 </body>
 </html>

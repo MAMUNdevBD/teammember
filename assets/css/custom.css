@@ -1,11 +1,11 @@
 .items {
-    width: 1400px;
+    width: 1300px;
     margin: auto;
 }
-
+/* 
 .mask-col {
     width: 50%;
-}
+} */
 
 .mask-col .content {
     width: 600px;
@@ -21,4 +21,37 @@
 .mask-col .content p {
     color: #000;
     font-size: 24px;
+}
+
+.item svg {
+    position: relative;
+}
+
+.content #left-image-title {
+    position: absolute;
+    transform: rotate(90deg);
+    margin-left: -150px !important;
+    font-size: 20px;
+    line-height: 30.4px;
+    margin-top: -30px !important;
+    text-transform: uppercase;
+}
+
+.content #right-image-title {
+    position: absolute;
+    transform: rotate(90deg);
+    margin-left: 615px !important;
+    font-size: 20px;
+    line-height: 30.4px;
+    margin-top: -30px !important;
+    text-transform: uppercase;
+}
+.mask-col .content h3 {
+    font-size: 25px;
+}
+.mask-col .content p {
+    font-size: 20px;
+    line-height: 30.4px;
+    margin: 20px 0;
+    color: #000 !important;
 }
